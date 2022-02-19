@@ -152,7 +152,7 @@ const pageTravel = {
 //이동할 주소명과 사용할 컴포넌트를 등록하여 라우팅을 정의
 const rtRoutes = [
     {
-        path : "/",
+        path : "/index.html",
         component : pageMain
     },
     {
@@ -170,10 +170,6 @@ const rtRoutes = [
     {
         path : "/science",
         component : pageScience
-    }, 
-    {
-        path : "/history",
-        component : pageHistory
     }, 
     {
         path : "/travel",
